@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Example, Example2 } from "./types";
+import { Example, Example2 } from "./Element.types";
 import clsx from "clsx";
-import { useElementClassNames } from "./classNames";
+import { useElementClassNames } from "./Element.classNames";
 
 const Element = ({ className, ref, children, ...allProps }: Example & Example2) => {
   //const { renderAs } = allProps;
@@ -11,7 +11,6 @@ const Element = ({ className, ref, children, ...allProps }: Example & Example2) 
     renderAs,
     { className: clsx(className, classNames) || undefined, ref, ...restProps } as React.ClassAttributes<{}>,
     children,
-
   );
 };
 

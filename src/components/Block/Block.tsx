@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import Element from "../Element";
+import Element from "../Element/Element";
 
 
 interface BlockProps extends React.BaseHTMLAttributes<HTMLDivElement> {}

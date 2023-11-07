@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { DisplayBreaks, Example, OnlyType } from "./types";
+import { DisplayBreaks, Example, OnlyType } from "./Element.types";
 import { normalizeAlign } from "../../utils/normalizer";
 
 const buildResponsiveness = (

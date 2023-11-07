@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import Element from "../Element";
-import { ButtonProps } from "./types";
+import Element from "../Element/Element";
+import { ButtonProps } from "./Button.types";
 import { normalizeStatus } from "../../utils/normalizer";
 
 export const Button = ({

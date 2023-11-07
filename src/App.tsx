@@ -1,7 +1,7 @@
 import "./App.css";
-import { Block } from "./components/Block";
-import { Box } from "./components/Box";
-import { Button } from "./components/Button";
+import { Block } from "./components/Block/Block";
+import { Box } from "./components/Box/Box";
+import { Button } from "./components/Button/Button";
 
 const App = () => {
   return (
