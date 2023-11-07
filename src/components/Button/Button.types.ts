@@ -30,6 +30,7 @@ export interface ButtonProps
    * Whether Button should have an inverted color scheme. Useful when button is used on colored background
    */
   inverted?: boolean;
+  light?: boolean;
   submit?: boolean;
   reset?: boolean;
   status?: "focus" | "hover" | "active";

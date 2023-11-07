@@ -9,6 +9,7 @@ export const Button = ({
   renderAs,
   color,
   sizeb,
+  light,
   outlined,
   inverted,
   submit,
@@ -55,6 +56,7 @@ export const Button = ({
       className={clsx(className, {
         [`is-${color}`]: color,
         [`is-${sizeb}`]: sizeb,
+        "is-light": light,
         "is-selected": isSelected,
         "is-static": isStatic,
         "is-rounded": rounded,
