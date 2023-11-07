@@ -38,5 +38,8 @@
     "storybook": "^7.5.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
