@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { Button } from "../../Button";
+import { ButtonGroup } from "../../components/ButtonGroup";
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 const meta = {
@@ -53,15 +54,15 @@ export const Primary: Story = {
   render: ({ ...args }) => {
     return (
       <>
-        <div className="buttons">
+        <ButtonGroup>
           <Button color="primary" {...args}>
             Primary
           </Button>
           <Button color="link" {...args}>
             Link
           </Button>
-        </div>
-        <div className="buttons">
+        </ButtonGroup>
+        <ButtonGroup>
           <Button color="info" {...args}>
             Info
           </Button>
@@ -74,7 +75,7 @@ export const Primary: Story = {
           <Button color="danger" {...args}>
             Danger
           </Button>
-        </div>
+        </ButtonGroup>
       </>
     );
   },
@@ -84,15 +85,15 @@ export const Light: Story = {
   render: ({ ...args }) => {
     return (
       <>
-        <div className="buttons">
+        <ButtonGroup>
           <Button color="primary" light {...args}>
             Primary
           </Button>
           <Button color="link" light {...args}>
             Link
           </Button>
-        </div>
-        <div className="buttons">
+        </ButtonGroup>
+        <ButtonGroup>
           <Button color="info" light {...args}>
             Info
           </Button>
@@ -105,7 +106,7 @@ export const Light: Story = {
           <Button color="danger" light {...args}>
             Danger
           </Button>
-        </div>
+        </ButtonGroup>
       </>
     );
   },

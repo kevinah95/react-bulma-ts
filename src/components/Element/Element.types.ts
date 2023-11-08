@@ -1,7 +1,7 @@
 import * as React from "react";
 
 export interface Example extends React.PropsWithChildren<Props>{
-    renderAs: string | React.ElementType<React.PropsWithChildren<unknown>>; //Component
+    renderAs?: string | React.ElementType<React.PropsWithChildren<unknown>>; //Component
     disabled?: boolean
 }
 
